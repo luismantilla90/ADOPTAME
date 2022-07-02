@@ -116,7 +116,13 @@ p {
 /* PAGINA DE ADOPCION */
 .perrosAdopcion {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
+
+} 
+.perrosAdopcion img:hover{
+    height: 300px;
+    width: 400px;
+    
 }
 
 article {
@@ -125,7 +131,7 @@ article {
 }
 
 /* PAGINA DE NOSOTROS */
-.imagen3 {
+.imagen3  {
     width: 100%;
 }
 
