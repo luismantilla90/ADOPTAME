@@ -66,11 +66,13 @@ h1 a {
     font-weight: 600;
     padding: 10px;
 }
-
-nav a:hover {
+#menuPrincipal a:hover{
     color: white;
 }
 
+h1 a:hover{
+    color: black;
+}
 /* INTERLINEADO DE PARRAFOS */
 p {
     line-height: 1.6;
@@ -85,6 +87,8 @@ p {
     text-align: center;
     font-size: 2rem;
     margin-top: 40px;
+    font-weight: 700;
+    
 }
 
 .textoPrincipal {
@@ -103,6 +107,7 @@ p {
 .tituloVideo {
     text-align: center;
     font-size: 2rem;
+    font-weight: 700;
 }
 
 .video1 {
@@ -122,7 +127,6 @@ p {
 .perrosAdopcion img:hover{
     height: 300px;
     width: 400px;
-    
 }
 
 article {
@@ -139,6 +143,7 @@ article {
     background-color: black;
     color: white;
     text-align: center;
+
 }
 
 .tituloNosotros {
@@ -162,6 +167,7 @@ article {
     font-size: 35px;
     text-align: center;
     margin-top: 30px;
+    font-weight: 700;
 }
 
 .respuestas {
@@ -177,16 +183,25 @@ article {
 
 /* PAGINA CONTACTO */
 
-label {
-    display: flex;
-    flex-direction: column;
+.btn-primary{
+
+    background-color: black;
+    border-color: rgb(197, 109, 16);
 }
 
-form {
-    text-align: center;
-    flex-direction: column;
+form .col-12{
+
+    text-align: center;    
 }
 
+form .col-md-6 {
+
+        width: 300px;
+}
+
+.row {
+margin-right: 0;
+}
 /* PIE DE PAGINA */
 
 footer {
@@ -200,11 +215,11 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
     }
 
     h1 a {
         font-size: 1rem;
-        
     }
 
     .perrosAdopcion p {
@@ -214,10 +229,20 @@ footer {
     }
     .menuPrincipal a{
         font-size: 1rem;
+     
     }
     .video1 iframe{
         width: 100%;
     }
+    .logo img{
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .encabezado{
+        padding-top: 20px;
+    
+   }
+    
 }
 
 @media screen and (max-width: 500px){
@@ -227,9 +252,9 @@ footer {
         flex-direction: column;
         justify-content: center;
         height: 250px;
-
+        
     }
-
+    
     h1 a {
         font-size: 2rem;
     }
@@ -267,6 +292,9 @@ footer {
     .video1 iframe{
         width: 100%;
     }
-
+    .perrosAdopcion img:hover{
+        height: 300px;
+        width: 400px;
+    }
 
 }
