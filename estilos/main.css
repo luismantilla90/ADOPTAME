@@ -1,0 +1,168 @@
+/* RESETEO */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* FIN DE RESETEO */
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1fr 0.1fr;
+  grid-template-areas: "header" "main" "footer";
+  width: 100%;
+  height: 100vh; }
+
+header {
+  grid-area: header;
+  display: flex;
+  height: 120px;
+  background-color: #c56d10;
+  align-items: center;
+  justify-content: space-between; }
+  header .logo {
+    display: flex; }
+    header .logo img {
+      height: 50px; }
+    header .logo h1 {
+      font-family: "Permanent Marker", cursive;
+      font-size: 2rem; }
+      header .logo h1 a {
+        text-decoration: none;
+        text-align: none;
+        color: black; }
+        header .logo h1 a:hover {
+          color: white; }
+  header .menuPrincipal ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none; }
+    header .menuPrincipal ul li {
+      font-weight: 600;
+      padding: 10px; }
+      header .menuPrincipal ul li a {
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        font-size: 1rem; }
+        header .menuPrincipal ul li a:hover {
+          color: white; }
+
+.imagen1 {
+  width: 100%; }
+
+.tituloTexto {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 40px;
+  font-weight: 700; }
+
+.textoPrincipal {
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+  margin-left: 80px;
+  text-align: justify;
+  background-color: antiquewhite;
+  padding: 15px;
+  border-radius: 10px;
+  line-height: line-height 1.6; }
+
+.tituloVideo {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center; }
+
+.video1 {
+  margin: 30px;
+  text-align: center; }
+
+.video1 iframe {
+  width: 50%; }
+
+.imagen2 {
+  width: 100%; }
+
+.preguntas {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 700; }
+
+.respuestas {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: justify;
+  margin-top: 30px;
+  margin-right: 80px;
+  margin-bottom: 90px;
+  margin-left: 80px;
+  background-color: antiquewhite;
+  line-height: line-height 1.6; }
+
+.imagen3 {
+  width: 100%; }
+
+.textoNosotros {
+  background-color: black;
+  color: white;
+  text-align: center; }
+
+.tituloNosotros {
+  text-align: center;
+  font-size: 35px; }
+
+.textoNosotros1 {
+  text-align: center;
+  font-size: 25px;
+  margin: 50px 40px 60px 80px; }
+
+.btn-primary {
+  background-color: black;
+  border-color: #c56d10; }
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  background-color: #c56d10; }
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    header h1 {
+      font-size: 1rem; }
+  .video1 iframe {
+    width: 100%; }
+  .logo img {
+    margin-top: 20px; }
+  .encabezado {
+    padding-top: 20px; } }
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 360px; }
+    header h1 {
+      font-size: 2rem; }
+      header h1 ul {
+        font-size: 1rem; }
+  #navbarSupportedContent ul {
+    display: flex;
+    flex-direction: column; }
+  .textoPrincipal {
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 80px;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 10px; }
+  article {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  .video1 iframe {
+    width: 100%; } }
