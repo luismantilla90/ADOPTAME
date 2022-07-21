@@ -1,3 +1,22 @@
+.tituloTexto, .tituloVideo, .preguntas {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 40px;
+  font-weight: 700; }
+
+.textoPrincipal, .respuestas {
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+  margin-left: 80px;
+  text-align: justify;
+  background-color: antiquewhite;
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 1.6; }
+
 /* RESETEO */
 * {
   padding: 0;
@@ -36,7 +55,8 @@ header {
   header .menuPrincipal ul {
     display: flex;
     flex-direction: row;
-    list-style: none; }
+    list-style: none;
+    position: relative; }
     header .menuPrincipal ul li {
       font-weight: 600;
       padding: 10px; }
@@ -51,30 +71,6 @@ header {
 .imagen1 {
   width: 100%; }
 
-.tituloTexto {
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 40px;
-  font-weight: 700; }
-
-.textoPrincipal {
-  font-size: 1.5rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-top: 50px;
-  margin-right: 40px;
-  margin-bottom: 60px;
-  margin-left: 80px;
-  text-align: justify;
-  background-color: antiquewhite;
-  padding: 15px;
-  border-radius: 10px;
-  line-height: line-height 1.6; }
-
-.tituloVideo {
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center; }
-
 .video1 {
   margin: 30px;
   text-align: center; }
@@ -84,23 +80,6 @@ header {
 
 .imagen2 {
   width: 100%; }
-
-.preguntas {
-  font-size: 35px;
-  text-align: center;
-  margin-top: 30px;
-  font-weight: 700; }
-
-.respuestas {
-  font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: justify;
-  margin-top: 30px;
-  margin-right: 80px;
-  margin-bottom: 90px;
-  margin-left: 80px;
-  background-color: antiquewhite;
-  line-height: line-height 1.6; }
 
 .imagen3 {
   width: 100%; }
@@ -126,7 +105,8 @@ header {
 footer {
   grid-area: footer;
   text-align: center;
-  background-color: #c56d10; }
+  background-color: #c56d10;
+  font-size: 0.9; }
 
 @media screen and (max-width: 768px) {
   header {
@@ -152,7 +132,7 @@ footer {
   #navbarSupportedContent ul {
     display: flex;
     flex-direction: column; }
-  .textoPrincipal {
+  .textoPrincipal, .respuestas {
     font-size: 1rem;
     margin-top: 50px;
     margin-right: 40px;

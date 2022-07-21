@@ -38,6 +38,7 @@ header {
         display: flex;
         flex-direction: row;
         list-style: none;
+        position: relative;
         
         li {
             font-weight: 600;
@@ -51,8 +52,10 @@ header {
                 &:hover{
                     color: $hover;
                     }
-                }
             }
         }
     }
 }
+}
+
+

@@ -1,0 +1,46 @@
+$estilo:  (
+ color: rgb(197, 109, 16),
+ alineacion: center,
+ grosor: 0.9,
+);
+
+@mixin gridBase {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+
+    
+}
+
+@mixin botonesContacto {
+    background-color: black;
+    border-color: rgb(197, 109, 16);
+    
+}
+
+.tituloTexto {
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 40px;
+        font-weight: 700;
+    
+    }
+    
+.textoPrincipal {
+        font-size: 1.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 50px;
+        margin-right: 40px;
+        margin-bottom: 60px;
+        margin-left: 80px;
+        text-align: justify;
+        background-color: antiquewhite;
+        padding: 15px;
+        border-radius: 10px;
+        line-height: 1.6;
+    }
+    

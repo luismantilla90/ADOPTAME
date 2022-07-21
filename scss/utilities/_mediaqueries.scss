@@ -41,9 +41,11 @@
 
     }
 
-    #navbarSupportedContent ul {
-        display: flex;
-        flex-direction: column;
+    #navbarSupportedContent {
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     .textoPrincipal {

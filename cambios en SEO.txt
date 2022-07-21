@@ -1,0 +1,9 @@
+cambien los titulos de cada página:
+"adotame, adopcion, preguntas frecuentes, contacto y nosotros"
+
+agreguekeywords: 
+"adoptame, adopcion, perro, gato, mascota"
+
+Encabezados revisados
+
+titulos correctos 

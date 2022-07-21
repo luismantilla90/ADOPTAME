@@ -1,5 +1,6 @@
 footer {
     grid-area: footer;
-    text-align: center;
-    background-color: rgb(197, 109, 16);
+    text-align: map-get($estilo , alineacion);
+    background-color: map-get($estilo, color);
+    font-size: map-get($estilo, grosor );
 }

@@ -4,21 +4,10 @@
 }
 
 .preguntas {
-    font-size: 35px;
-    text-align: center;
-    margin-top: 30px;
-    font-weight: 700;
+    @extend .tituloTexto;
     
 }
 
 .respuestas {
-    font-size: 20px;
-    font-family: $textoRespuestas;
-    text-align: justify;
-    margin-top: 30px;
-    margin-right: 80px;
-    margin-bottom: 90px;
-    margin-left: 80px;
-    background-color: $fondoTextoRespuestas;
-    line-height: $interLineado;
+    @extend .textoPrincipal;
 }

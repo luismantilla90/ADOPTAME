@@ -1,4 +1,3 @@
 .btn-primary{
-    background-color: black;
-    border-color: rgb(197, 109, 16);
+    @include botonesContacto;
 }
