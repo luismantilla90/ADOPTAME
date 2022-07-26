@@ -4,48 +4,54 @@
         flex-direction: column;
         justify-content: center;
 
-        h1 {
-            font-size: 1rem;
+        .logo{
+            height: 85px;
+            
+            img{
+                margin-top: 20px;
+                height: 80px;
+            }
         }
-
+        
+       
     }
+
 
     .video1 iframe {
         width: 100%;
     }
 
-    .logo img {
-        margin-top: 20px;
 
-    }
 
-    .encabezado {
-        padding-top: 20px;
-
-    }
 
 }
 
 @media screen and (max-width: 500px) {
 
     header {
-        height: 360px;
-
-        h1 {
-            font-size: 2rem;
-
-            ul {
-                font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        .logo{
+            height: 1000px;
+            margin-right: 50px;
+            img{
+                margin-top: 20px;
+                height: 80px; 
             }
-        }
 
+        }
     }
+
 
     #navbarSupportedContent {
         ul{
             display: flex;
             flex-direction: column;
-        }
+            align-items: flex-start;
+            height: 50px;
+            
+            }
     }
 
     .textoPrincipal {

@@ -1,4 +1,4 @@
-cambien los titulos de cada página:
+cambie los titulos de cada página:
 "adotame, adopcion, preguntas frecuentes, contacto y nosotros"
 
 agregue keywords: 

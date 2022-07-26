@@ -42,7 +42,8 @@ header {
   header .logo {
     display: flex; }
     header .logo img {
-      height: 50px; }
+      margin-left: 50px;
+      height: 125px; }
     header .logo h1 {
       font-family: "Permanent Marker", cursive;
       font-size: 2rem; }
@@ -113,25 +114,30 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-    header h1 {
-      font-size: 1rem; }
+    header .logo {
+      height: 85px; }
+      header .logo img {
+        margin-top: 20px;
+        height: 80px; }
   .video1 iframe {
-    width: 100%; }
-  .logo img {
-    margin-top: 20px; }
-  .encabezado {
-    padding-top: 20px; } }
+    width: 100%; } }
 
 @media screen and (max-width: 500px) {
   header {
-    height: 360px; }
-    header h1 {
-      font-size: 2rem; }
-      header h1 ul {
-        font-size: 1rem; }
+    display: flex;
+    flex-direction: column;
+    height: 200px; }
+    header .logo {
+      height: 1000px;
+      margin-right: 50px; }
+      header .logo img {
+        margin-top: 20px;
+        height: 80px; }
   #navbarSupportedContent ul {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: flex-start;
+    height: 50px; }
   .textoPrincipal, .respuestas {
     font-size: 1rem;
     margin-top: 50px;
