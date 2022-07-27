@@ -16,18 +16,23 @@
        
     }
 
+    .textoPrincipal{
+        margin-left: 5%;
+    }
 
+    
+    
     .video1 iframe {
         width: 100%;
     }
-
-
-
+    
+    
+    
 
 }
 
 @media screen and (max-width: 500px) {
-
+    
     header {
         display: flex;
         flex-direction: column;
@@ -39,11 +44,11 @@
                 margin-top: 20px;
                 height: 80px; 
             }
-
+            
         }
     }
-
-
+    
+    
     #navbarSupportedContent {
         ul{
             display: flex;
@@ -51,21 +56,22 @@
             align-items: flex-start;
             height: 50px;
             
-            }
+        }
     }
-
+    
     .textoPrincipal {
-        font-size: 1rem;
-        margin-top: 50px;
-        margin-right: 40px;
-        margin-left: 80px;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 1rem;    
         text-align: justify;
-
-        padding: 15px;
         border-radius: 10px;
     }
-
-
+    
+    .textoNosotro{
+        text-align: justify;
+    
+    }
+    
     article {
         display: flex;
         flex-direction: column;
@@ -74,6 +80,7 @@
     }
 
     .video1 iframe {
+        align-items: flex-start;
         width: 100%;
     }
 

@@ -119,6 +119,8 @@ footer {
       header .logo img {
         margin-top: 20px;
         height: 80px; }
+  .textoPrincipal, .respuestas {
+    margin-left: 5%; }
   .video1 iframe {
     width: 100%; } }
 
@@ -139,16 +141,17 @@ footer {
     align-items: flex-start;
     height: 50px; }
   .textoPrincipal, .respuestas {
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 1rem;
-    margin-top: 50px;
-    margin-right: 40px;
-    margin-left: 80px;
     text-align: justify;
-    padding: 15px;
     border-radius: 10px; }
+  .textoNosotro {
+    text-align: justify; }
   article {
     display: flex;
     flex-direction: column;
     text-align: center; }
   .video1 iframe {
+    align-items: flex-start;
     width: 100%; } }
