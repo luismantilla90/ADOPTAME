@@ -3,14 +3,19 @@
     width: 100%;
 }
 
-.textoNosotros {
+.bgNosotros{
     background-color: $colorFondoNosotro;
+}
+
+.textoNosotros {
+    margin-top: 50px;
     color: $textoNostros ;
     text-align: center;
 
 }
 
 .tituloNosotros {
+    
     text-align: center;
     font-size: 35px;
 }

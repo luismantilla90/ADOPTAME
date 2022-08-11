@@ -6,7 +6,7 @@
 
 .textoPrincipal, .respuestas {
   font-size: 1.5rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
   margin-top: 50px;
   margin-right: 40px;
   margin-bottom: 60px;
@@ -33,41 +33,18 @@ body {
   height: 100vh; }
 
 header {
-  grid-area: header;
-  display: flex;
-  height: 120px;
-  background-color: #c56d10;
-  align-items: center;
-  justify-content: space-between; }
-  header .logo {
+  text-align: center;
+  background-color: #c56d10; }
+  header .row {
     display: flex; }
-    header .logo img {
-      margin-left: 50px;
-      height: 125px; }
-    header .logo h1 {
-      font-family: "Permanent Marker", cursive;
-      font-size: 2rem; }
-      header .logo h1 a {
-        text-decoration: none;
-        text-align: none;
-        color: black; }
-        header .logo h1 a:hover {
-          color: white; }
-  header .menuPrincipal ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    position: relative; }
-    header .menuPrincipal ul li {
-      font-weight: 600;
-      padding: 10px; }
-      header .menuPrincipal ul li a {
-        text-decoration: none;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: black;
-        font-size: 1rem; }
-        header .menuPrincipal ul li a:hover {
-          color: white; }
+    header .row img {
+      height: 100px; }
+
+.navbar-nav {
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .imagen1 {
   width: 100%; }
@@ -85,8 +62,11 @@ header {
 .imagen3 {
   width: 100%; }
 
+.bgNosotros {
+  background-color: black; }
+
 .textoNosotros {
-  background-color: black;
+  margin-top: 50px;
   color: white;
   text-align: center; }
 
@@ -99,6 +79,10 @@ header {
   font-size: 25px;
   margin: 50px 40px 60px 80px; }
 
+.mainContacto {
+  background-image: url(/multimedia/pexels-alina-vilchenko-5643798.jpg);
+  background-size: cover; }
+
 .btn-primary {
   background-color: black;
   border-color: #c56d10; }
@@ -108,38 +92,25 @@ footer {
   text-align: center;
   background-color: #c56d10;
   font-size: 0.9; }
+  footer .redes {
+    margin-top: 20px; }
 
 @media screen and (max-width: 768px) {
   header {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-    header .logo {
-      height: 85px; }
-      header .logo img {
-        margin-top: 20px;
-        height: 80px; }
-  .textoPrincipal, .respuestas {
-    margin-left: 5%; }
-  .video1 iframe {
-    width: 100%; } }
+    header img {
+      margin-top: 20px;
+      height: 80px; } }
+
+.textoPrincipal, .respuestas {
+  margin-left: 5%; }
+
+.video1 iframe {
+  width: 100%; }
 
 @media screen and (max-width: 500px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    height: 200px; }
-    header .logo {
-      height: 1000px;
-      margin-right: 50px; }
-      header .logo img {
-        margin-top: 20px;
-        height: 80px; }
-  #navbarSupportedContent ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 50px; }
   .textoPrincipal, .respuestas {
     margin-left: 10%;
     margin-right: 10%;

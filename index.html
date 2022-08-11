@@ -10,10 +10,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- APTACION A CELULAR -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ESTILO DE LETRA ENCABEZADO-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <!-- LOGO DE PESTAÑA -->
     <link rel="shortcut icon" href="/multimedia/images.png" type="image/x-icon">
     <!-- ANIMACION HEADER -->
@@ -34,43 +30,35 @@
 <!-- TODO EL CONTENIDO DEL SITIO -->
 
 <body>    
-    <header class="animate__animated animate__backInLeft">
-        <div class="logo">          
-            <a href="../index.html">
-            <img  src="./multimedia/glow.png" alt="logo-pagina"></a>
+    <header class="container-fluid animate__animated animate__backInLeft">
+        <div class="container">
+            <div class="row">
+                <a href="../index.html">
+                    <img class="img" src="./multimedia/glow.png" alt="logo-pagina"></a>
+            </div>
         </div>
-    
-        <nav  class="menuPrincipal navbar navbar-expand-md navbar-light">
-            <div class="container-fluid">
+
+        <div class="row">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="navPd container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="./paginas/adopcion.html">Adopcion</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="./paginas/preguntas frecuentes.html">Preguntas Frecuentes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="./paginas/nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="./paginas/contacto.html">Contacto</a>
-                            </li>
-                        </ul>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mx-auto">
+                            <a class="nav-link active mx-4" aria-current="page" href="./index.html">Inicio</a>
+                            <a class="nav-link active mx-4" href="./paginas/adopcion.html">Adopción</a>
+                            <a class="nav-link active mx-4" href="./paginas/preguntas frecuentes.html">Preguntas Frecuentes</a>
+                            <a class="nav-link active mx-4" href="./paginas/nosotros.html">Nosotros</a>
+                            <a class="nav-link active mx-4" href="./paginas/contacto.html">Contacto</a>
+                        </div>
                     </div>
-                </div>
             </nav>
+        </div>
 
     </header>
-
     <main>
 
         <div>
@@ -79,27 +67,24 @@
         <div>
             <h2 class="tituloTexto">ADOPTA GANAMOS TODOS</h2>
             <p class="textoPrincipal">
-
-
-                La adopción es una alternativa que a la hora de adquirir un animal de compañía beneficia a todos: a la
+                <strong>La adopción es una alternativa que a la hora de adquirir un animal de compañía beneficia a todos: </strong>a la
                 familia, a las entidades de protección animal y, por supuesto, al propio perro o gato. Los adoptantes
                 han
                 manifestado que su motivo principal para hacerlo fue su sensibilización con el problema (38%) y para
-                colaborar con la protectora (23%). También se han decidido a adoptar por recomendaciones, porque es una
-                vía
-                más económica y porque los animales están en mejores condiciones (12% para cada una de estas razones)
-
-                Pero la adopción en España no es una opción mayoritaria a la hora de adquirir una mascota, por lo que su
-                promoción es una estrategia fundamental para reducir la población de animales abandonados. Solo el 44%
+                colaborar con la protectora (23%). 
+                <strong>También se han decidido a adoptar por recomendaciones, porque es una vía
+                más económica y porque los animales están en mejores condiciones (12% para cada una de estas razones)</strong> 
+                Pero la adopción en Argentina no es una opción mayoritaria a la hora de adquirir una mascota, por lo que su
+                promoción es una estrategia fundamental para reducir la población de animales abandonados. <strong> Solo el 44%
                 de
-                los animales recogidos son adoptados, y una parte de ellos son adoptados por familias de otros países,
+                los animales recogidos son adoptados</strong>, y una parte de ellos son adoptados por familias de otros países,
                 lo
-                que indica que España es deficitaria en cuanto a la adopción de animales de compañía, porque no compensa
+                que indica que Argentina es deficitaria en cuanto a la adopción de animales de compañía, porque no compensa
                 el
                 número de abandonos y porque parte de estas adopciones son gestionadas fuera de nuestro país.
-
+                <strong>
                 Al no ser adoptado el perro o gato está condenado a pasar el resto de sus días en un refugio (16%) o en
-                muchos casos a ser sacrificado (12%).
+                muchos casos a ser sacrificado (12%).</strong> 
             </p>
         </div>
 
@@ -113,6 +98,12 @@
     </main>
 
     <footer>
+        <div class="redes">
+            <img src="../multimedia/facebook (1).png" alt="facebook">
+            <img src="../multimedia/instagram.png" alt="">
+            <img src="../multimedia/twitter.png" alt="">
+            <img src="../multimedia/whatsapp.png" alt="">
+        </div>
 
         <p class="piedePagina">
             Derechos Reservados |Términos y condiciones|

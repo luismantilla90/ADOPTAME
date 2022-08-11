@@ -34,48 +34,41 @@
 
 <body>
 
-    <header class="animate__animated animate__backInLeft">
-        <div class="logo">
-            <a href="../index.html">
-                <img src="../multimedia/glow.png" alt="logo-pagina"></a>
-        </div>
-
-        <nav id="menuPrincipal" class="menuPrincipal navbar navbar-expand-md navbar-light">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../paginas/adopcion.html">Adopcion</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../paginas/preguntas frecuentes.html">Preguntas
-                                Frecuentes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../paginas/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../paginas/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+    <header class="container-fluid animate__animated animate__backInLeft">
+        <div class="container">
+            <div class="row">
+                <a href="../index.html">
+                    <img class="img" src="../multimedia/glow.png" alt="logo-pagina"></a>
             </div>
-        </nav>
-
+        </div>
+    
+        <div class="row">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="navPd container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mx-auto">
+                            <a class="nav-link active mx-4" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link active mx-4" href="../paginas/adopcion.html">Adopción</a>
+                            <a class="nav-link active mx-4" href="../paginas/preguntas frecuentes.html">Preguntas Frecuentes</a>
+                            <a class="nav-link active mx-4" href="../paginas/nosotros.html">Nosotros</a>
+                            <a class="nav-link active mx-4" href="../paginas/contacto.html">Contacto</a>
+                        </div>
+                    </div>
+            </nav>
+        </div>
+    
     </header>
 
-    <main>
+    <main class="bgNosotros">
         <div>
             <img src="../multimedia/perro-nieve-hoja.jpg" alt="imagen de nosotros" class="imagen3">
         </div>
+
 
         <article>
             <section class="textoNosotros">
@@ -149,6 +142,12 @@
 
 
     <footer>
+        <div class="redes">
+            <img src="../multimedia/facebook (1).png" alt="facebook">
+            <img src="../multimedia/instagram.png" alt="">
+            <img src="../multimedia/twitter.png" alt="">
+            <img src="../multimedia/whatsapp.png" alt="">
+        </div>
 
         <p class="piedePagina">
             Derechos Reservados |Términos y condiciones|
