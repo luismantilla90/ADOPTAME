@@ -8,10 +8,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- APTACION A CELULAR -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- ESTILO DE LETRA ENCABEZADO-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   <!-- LOGO DE PESTAÑA -->
   <link rel="shortcut icon" href="../multimedia/images.png" type="image/x-icon">
   <!-- ANIMACION HEADER -->
@@ -31,52 +27,48 @@
 </head>
 
 <!-- TODO EL CONTENIDO DEL SITIO -->
-
 <body>
   <header class="container-fluid animate__animated animate__backInLeft">
     <div class="container">
-        <div class="row">
-            <a href="../index.html">
-                <img class="img" src="../multimedia/glow.png" alt="logo-pagina"></a>
-        </div>
+      <div class="row">
+        <a href="../index.html">
+          <img class="img" src="../multimedia/glow.png" alt="logo-pagina"></a>
+      </div>
     </div>
-
     <div class="row">
-        <nav class="navbar navbar-expand-md navbar-light">
-            <div class="navPd container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav mx-auto">
-                        <a class="nav-link active mx-4" aria-current="page" href="../index.html">Inicio</a>
-                        <a class="nav-link active mx-4" href="../paginas/adopcion.html">Adopción</a>
-                        <a class="nav-link active mx-4" href="../paginas/preguntas frecuentes.html">Preguntas Frecuentes</a>
-                        <a class="nav-link active mx-4" href="../paginas/nosotros.html">Nosotros</a>
-                        <a class="nav-link active mx-4" href="../paginas/contacto.html">Contacto</a>
-                    </div>
-                </div>
-        </nav>
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="navPd container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+              <a class="nav-link active mx-4" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav-link active mx-4" href="../paginas/adopcion.html">Adopción</a>
+              <a class="nav-link active mx-4" href="../paginas/preguntas frecuentes.html">Preguntas Frecuentes</a>
+              <a class="nav-link active mx-4" href="../paginas/nosotros.html">Nosotros</a>
+              <a class="nav-link active mx-4" href="../paginas/contacto.html">Contacto</a>
+            </div>
+          </div>
+      </nav>
     </div>
-</header>
-
+  </header>
   <main class="mainContacto d-flex justify-content-center">
     <form class="row g-3 m-2">
       <div class="row g-3 d-flex justify-items-center flex-column">
         <div class="col">
-          <label for="text">Nombre</label>
+          <label for="text"><strong>Nombre</strong></label>
           <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-          <label for="tex">Apellido</label>
+          <label for="tex"><strong>Apellido</strong></label>
           <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
-          <label for="inputCity" class="form-label">Ciudad</label>
-          <input type="text" class="form-control" id="inputCity">
-          <label for="inputState" class="form-label">Pais</label>
+          <label for="inputEmail4" class="form-label"><strong>Email</strong></label>
+          <input type="email" class="form-control" placeholder="Email" id="inputEmail4">
+          <label for="inputPassword4" class="form-label"><strong>Password </strong></label>
+          <input type="password" class="form-control" placeholder="Password" id="inputPassword4">
+          <label for="inputCity" class="form-label"><strong>Ciudad</strong></label>
+          <input type="text" class="form-control" placeholder="Ciudad" id="inputCity">
+          <label for="inputState" class="form-label"><strong>Pais</strong></label>
           <select id="inputState" class="form-select">
             <option selected>Seleccionar</option>
             <option>Argentina</option>
@@ -85,14 +77,14 @@
             <option>Venezuela</option>
           </select>
           <div class="d-flex">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <input class="form-check-input m-4" type="checkbox" id="gridCheck">
             <label class="form-check-label" for="gridCheck">
-              Acepto Terminos y Condiciones
+              <strong>Acepto Terminos y Condiciones</strong>
             </label>
           </div>
           <div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-            <button type="reset" class="btn btn-primary">Restablecer</button>
+            <button type="submit" class="btn btn-primary mx-4">Enviar</button>
+            <button type="reset" class="btn btn-primary mx-8">Restablecer</button>
           </div>
         </div>
     </form>
@@ -104,7 +96,6 @@
       <img src="../multimedia/twitter.png" alt="">
       <img src="../multimedia/whatsapp.png" alt="">
     </div>
-
     <p class="piedePagina">
       Derechos Reservados |Términos y condiciones|
       Aviso de Privacidad

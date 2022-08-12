@@ -40,21 +40,24 @@ header {
     header .row img {
       height: 100px; }
 
-.navbar-nav {
+.navbar .navbar-nav {
   justify-content: space-between;
   font-weight: 600;
   font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .navbar .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    transition: all 1.5s; }
 
 .imagen1 {
   width: 100%; }
 
 .video1 {
-  margin: 30px;
-  text-align: center; }
-
-.video1 iframe {
-  width: 50%; }
+  margin-left: 10%;
+  margin-bottom: 5%;
+  width: 80%; }
 
 .imagen2 {
   width: 100%; }
@@ -65,22 +68,21 @@ header {
 .bgNosotros {
   background-color: black; }
 
-.textoNosotros {
-  margin-top: 50px;
-  color: white;
-  text-align: center; }
-
 .tituloNosotros {
   text-align: center;
   font-size: 35px; }
 
-.textoNosotros1 {
-  text-align: center;
-  font-size: 25px;
-  margin: 50px 40px 60px 80px; }
+.textoNosotros {
+  margin-top: 50px;
+  color: white;
+  text-align: center; }
+  .textoNosotros .textoNosotros1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 50px 40px 60px 80px; }
 
 .mainContacto {
-  background-image: url(/multimedia/pexels-alina-vilchenko-5643798.jpg);
+  background-image: url(/multimedia/Nota_2_carrusel_Signos-de-felicidad_feb_mobile.jpg);
   background-size: cover; }
 
 .btn-primary {
@@ -102,10 +104,14 @@ footer {
     justify-content: center; }
     header img {
       margin-top: 20px;
-      height: 80px; } }
+      height: 60px; } }
+
+.navbar .navbar-nav {
+  font-size: 0.9rem; }
 
 .textoPrincipal, .respuestas {
-  margin-left: 5%; }
+  margin-left: 5%;
+  font-size: 1rem; }
 
 .video1 iframe {
   width: 100%; }
@@ -114,15 +120,11 @@ footer {
   .textoPrincipal, .respuestas {
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: justify;
     border-radius: 10px; }
-  .textoNosotro {
-    text-align: justify; }
-  article {
-    display: flex;
-    flex-direction: column;
-    text-align: center; }
-  .video1 iframe {
-    align-items: flex-start;
-    width: 100%; } }
+  .textoNosotros .textoNosotros1 {
+    text-align: justify;
+    margin: 80px 30px 80px 30px; }
+  .video1 {
+    width: 80%; } }

@@ -1,22 +1,15 @@
 .imagen1 {
     width: 100%;
 }
-
 .tituloTexto {
     @extend .tituloTexto;
 
 }
-
-
 .tituloVideo {
     @extend .tituloTexto;
 }
-
 .video1 {
-    margin: 30px;
-    text-align: center;
-}
-
-.video1 iframe {
-    width: 50%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width: 80%;
 }

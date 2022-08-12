@@ -7,22 +7,21 @@
     background-color: $colorFondoNosotro;
 }
 
+
+.tituloNosotros {
+    text-align: center;
+    font-size: 35px;
+}
 .textoNosotros {
     margin-top: 50px;
     color: $textoNostros ;
     text-align: center;
+    .textoNosotros1 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 50px 40px 60px 80px;
+    }
 
 }
 
-.tituloNosotros {
-    
-    text-align: center;
-    font-size: 35px;
-}
-
-.textoNosotros1 {
-    text-align: center;
-    font-size: 25px;
-    margin: 50px 40px 60px 80px;
-}
 
