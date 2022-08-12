@@ -1,5 +1,4 @@
-@media screen and (max-width : 768px) {
-   
+@media screen and (max-width : 768px) {   
     header {
         display: flex;
         flex-direction: column;
@@ -12,9 +11,12 @@
     } 
     .navbar .navbar-nav{
         font-size: 0.9rem;
-    }    
- 
-    
+    }
+
+    .textoPrincipal{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
     .video1 iframe {
         width: 100%;
     }

@@ -82,7 +82,7 @@ header {
     margin: 50px 40px 60px 80px; }
 
 .mainContacto {
-  background-image: url(/multimedia/Nota_2_carrusel_Signos-de-felicidad_feb_mobile.jpg);
+  background-image: url(../multimedia/Nota_2_carrusel_Signos-de-felicidad_feb_mobile.jpg);
   background-size: cover; }
 
 .btn-primary {
@@ -108,6 +108,10 @@ footer {
 
 .navbar .navbar-nav {
   font-size: 0.9rem; }
+
+.textoPrincipal, .respuestas {
+  margin-left: 50px;
+  margin-right: 50px; }
 
 .video1 iframe {
   width: 100%; }
