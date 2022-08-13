@@ -55,9 +55,12 @@ header {
   width: 100%; }
 
 .video1 {
-  margin-left: 10%;
-  margin-bottom: 5%;
-  width: 80%; }
+  margin: 30px;
+  text-align: center; }
+
+.video1 iframe {
+  width: 80%;
+  border-radius: 20px; }
 
 .imagen2 {
   width: 100%; }
@@ -82,7 +85,7 @@ header {
     margin: 50px 40px 60px 80px; }
 
 .mainContacto {
-  background-image: url(../multimedia/Nota_2_carrusel_Signos-de-felicidad_feb_mobile.jpg);
+  background-image: url(../multimedia/fondocontacto.jpg);
   background-size: cover; }
 
 .btn-primary {
@@ -97,7 +100,7 @@ footer {
   footer .redes {
     margin-top: 20px; }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 300px) {
   header {
     display: flex;
     flex-direction: column;
@@ -113,9 +116,6 @@ footer {
   margin-left: 50px;
   margin-right: 50px; }
 
-.video1 iframe {
-  width: 100%; }
-
 @media screen and (max-width: 500px) {
   .textoPrincipal, .respuestas {
     margin-left: 10%;
@@ -126,5 +126,5 @@ footer {
   .textoNosotros .textoNosotros1 {
     text-align: justify;
     margin: 80px 30px 80px 30px; }
-  .video1 {
-    width: 80%; } }
+  .video1 iframe {
+    width: 100%; } }
