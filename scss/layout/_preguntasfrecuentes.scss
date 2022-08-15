@@ -1,13 +1,10 @@
-
 .imagen2 {
     width: 100%;
 }
-
 .preguntas {
     @extend .tituloTexto;
     
 }
-
 .respuestas {
     @extend .textoPrincipal;
 }
